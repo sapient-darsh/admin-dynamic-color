@@ -1,4 +1,4 @@
-import dashboardNavigationConfig from "./dashboard.navifation.config";
+import dashboardNavigationConfig from "./dashboard.Navigation.Config";
 
 const navigationConfig = [...dashboardNavigationConfig];
 

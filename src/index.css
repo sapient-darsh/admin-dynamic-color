@@ -394,6 +394,24 @@ hr {
   --tw-backdrop-sepia: ;
 }
 
+.button {
+  font-weight: 600;
+  white-space: nowrap;
+}
+.button:focus {
+  outline: 2px solid #0000;
+  outline-offset: 2px;
+}
+.button.radius-round {
+  border-radius: 0.375rem;
+}
+.button.radius-circle {
+  border-radius: 9999px;
+}
+.button.radius-none {
+  border-radius: 0;
+}
+
 /*
 1. Avatar
 2. Badge
